@@ -20,6 +20,7 @@ import UserOrders from './pages/UserOrders/UserOrders';
 import ManegeAllOrders from './pages/Dashboard/ManegeAllOrders/ManegeAllOrders';
 import ManegeAllProducts from './pages/ManegeAllProducts/ManegeAllProducts';
 import Footer from './pages/Footer/Footer';
+import Payment from './pages/Payment/Payment';
 
 function App() {
   return (
@@ -42,6 +43,9 @@ function App() {
          </Route>
          <Route path='/slider'>
            <Slider></Slider>
+         </Route>
+         <Route path='/payment'>
+           <Payment></Payment>
          </Route>
          <Route path='/login'>
            <Login></Login>

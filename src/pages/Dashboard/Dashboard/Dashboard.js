@@ -49,7 +49,8 @@ function Dashboard(props) {
             <Divider />
             <Link to={`/`}><Button color="inherit">Home</Button></Link> <br />
             <Link to={`/bikes`}><Button color="inherit">Bikes</Button></Link> <br />
-            <Link to={`${url}`}><Button color="inherit">User Orders</Button></Link>
+            <Link to={`${url}`}><Button color="inherit">User Orders</Button></Link> <br />
+            <Link to={`/payment`}><Button color="inherit">payment</Button></Link> <br />
             <Link to={`addreviews`}><Button color="inherit">Add Review</Button></Link> <br />
               
 
